@@ -6,11 +6,6 @@
     <title>nouhidev | Marble Graphs</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico" />
     <link rel="stylesheet" href="TemplateData/style.css" />
-    <script
-      language="JavaScript"
-      type="text/javascript"
-      src="index.js"
-    ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <meta name="title" content="nouhidev | marble graphs" />
     <meta
@@ -50,6 +45,38 @@
         <div class="side"></div>
       </div>
     </div>
+
+    <header>
+      <div class="logo-nav">
+        <img src="https://nouhi.dev/assets/logo.png" alt="" />
+      </div>
+      <input type="checkbox" id="nav_check" hidden />
+      <nav>
+        <div class="logo">
+          <img src="https://nouhi.dev/assets/logo.png" alt="" />
+        </div>
+        <ul>
+          <li>
+            <a href="https://nouhi.dev/" class="active">Home</a>
+          </li>
+          <li>
+            <a href="https://nouhi.dev/games/">Games</a>
+          </li>
+          <li>
+            <a href="https://nouhi.dev/projects/">Projects</a>
+          </li>
+          <li>
+            <a href="https://nouhi.dev/other-projects/">Other</a>
+          </li>
+        </ul>
+      </nav>
+      <label for="nav_check" class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </label>
+    </header>
+
     <div class="content">
       <div id="unity-container" class="unity-desktop">
         <canvas id="unity-canvas" width="1280" height="720"></canvas>
